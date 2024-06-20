@@ -55,3 +55,7 @@ plt.title('Hours vs Scores (with Regression Line)')
 plt.xlabel('Hours Studied')
 plt.ylabel('Scores')
 plt.show()
+
+# Predict the score for 9.25 hours of study
+predicted_score = model.predict([[9.25]])
+predicted_score[0]
